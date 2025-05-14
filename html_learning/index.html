@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>this is title</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="category.html">Category</a>
+        <a href="services.html">Services</a>
+        <a href="contact-us.html">Contact-us</a>
+      </nav>
+    </header>
+    <section class="hero_section">
+      <div class="img_container">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKYAAACUCAMAAAAu5KLjAAAAZlBMVEX///8AAAD09PROTk57e3sXFxe+vr5+fn6Pj4/IyMjBwcFeXl6Tk5NbW1saGhpRUVHu7u6xsbG3t7eqqqqEhIQICAh0dHQjIyOcnJxlZWVqamri4uLOzs7c3Nw8PDwyMjIrKytGRkY2/YS/AAAEPklEQVR4nO2b2ZKiMBRAJcoIChhWRQH1/39y0CZhS8Cs7dTc8zRT1SGns+fm9mYDAAAAAAAAAAAAAADwf4Kryj+w+fM5nC+0+FWNVBWD0/1xjiiuPvqPRudHUybykrfCschFsk0PjU1LxylvMpbV3a6l4xyxhKbltnwRiFum9i0dR3x4Wu/yF56oJe7LPovMC7I3XtaxH7BTpAgjUlUjqhmTko+4xn1fIAPgW7XrKstFNbOuoPtHtKQMdFWpBQuSlV14tEiBSXWim9G1K5ca0ZqRSVZX/hSLFPZaETw1zbOVobnZBP+W5kWwHE+zXT5eqJ4Qp8hqHpma6OCd3HZ5a7JE6jjDRVVzNIX8q0v3plDrGqCoOZrp6dkZkO++U/PiTCj1jVB9mkk01XSy79O8hTNLJzp8nWY8t3ScQle3E03R8/tUE51YmsInGkOabtz9HzMthTvJtGbF1jx+mSbnBvf86GP16s1Wl+Zs0fxc0z8+t2vV69JkTvSPOv2nH1a2AqIpelmYat7YmutTiIyWcrHjFTVzookeTM3VBSmle1ex5KlLkz04l5uoJR6cVq42NGtWc67dlGJ3+NMLnto0N8nccu2j0yL8eaRPE3mTSp3rSpfPfzHu+NSnuUHBuM7ryj0jPjszdpz2lNXsjm358CqB0nzY4yttybLkjk+dmu3quafVrS1FnP2A46lXsyXJiiKLV8+ZPEvOPNKu+RFoKdbMmke/o5nO701Dz3l7/opm6nIV34SzEmSxs6nJOfQNOE3bU1FTJr65bjl/ArKuiT6xnO1gtjXRZWVc0vYc9bttzdnGz+XJKmZAEzPWvx1PikEzKG9MEwf5PZ1M2PkhapGwP7uY0sTvdstGnoKW7fiknoY0UfeQMzxIoCxnuSxBrQxp0ojStm9PkXHZ8SCljWiiQRCx6U50qBS3dFwyi0xo4pFR8z7V1UcJS22arD0dT9rNLdIkkMtlyM1ponnY2F08ty1hTBNpTVswpYmfOi1NabIeCn5Tk9zTJzdLzZZUU2M4gftO8GWaiBkg+DZNLLWC29bEJvIPtWuijFvX72u6y9Fi7ZqqLxmcJ4Jv0zTS5fo19a9FI00ypFQ1zVjq0qQP1aA51FTNTpA++NrVNLBRmtDkx9JVcHVrcpIoFLmTe7ouTSQRLFiHTmxFzT5HDgfhNixIknbxYlcQ+n+17BfpUr09L9sHCQ2ZqGoOMg4xxnpTtAfVadQ0CdEUjfoyEyPNoag5vrKZQzEFWlva1jI0LCXaeeTiE8r8DY8wFQng+oIFaXx6b8GzpvE80cr6zbFJ/eqFr5eK4l9oMDwS/QXNbI5T8twdvXaVopqbrRXPCaJDk5sJaRThv2pq2a9/VjNuJaE5DbEbJ5LLhMCG7uYc7olkPjWq7TVoFCitz9VldwxPA7Y6GH7wFJZZbGWvAwAAAAAAAAAAAAAAAOT4C9A3WR5KwxlMAAAAAElFTkSuQmCC"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <div class="form_container">
+      <div class="form_main">
+        <div class="heading">
+          <h3>User form</h3>
+        </div>
+        <form action="">
+          <div class="input_container_main">
+            <div class="input_container">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                placeholder="Enter first name"
+              />
+            </div>
+
+            <div class="input_container">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Enter last name"
+              />
+            </div>
+
+            <div class="input_container">
+              <label for="email">email</label>
+              <input type="text" name="email" placeholder="Enter email" />
+            </div>
+            <div class="input_container">
+              <label for="phoneno">phone no</label>
+              <input type="text" name="phoneno" placeholder="Enter phone no" />
+            </div>
+          </div>
+
+          <button class="button" type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+
     <p>this is paragraph</p>
     <br /><br />
     <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">
@@ -29,6 +87,31 @@
         width="104"
         height="142"
       />
+    </div>
+
+    <div class="datatable">
+      <table>
+        <tr>
+          <th>Compony name</th>
+          <th>Deparment name</th>
+          <th>Contact no.</th>
+        </tr>
+        <tr>
+          <td>WMT</td>
+          <td>developer</td>
+          <td>3333333333</td>
+        </tr>
+        <tr>
+          <td>xx</td>
+          <td>developer</td>
+          <td>5555555555</td>
+        </tr>
+        <tr>
+          <td>yy</td>
+          <td>developer</td>
+          <td>6666666666</td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>
